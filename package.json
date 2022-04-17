@@ -1,0 +1,24 @@
+{
+  "name": "bouncer",
+  "version": "1.0.0",
+  "description": "A simple IRC Bouncer written in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@git.sr.ht/~yonle/bouncer.js.git"
+  },
+  "keywords": [
+    "bouncer",
+    "bnc",
+    "irc"
+  ],
+  "author": "Yonle <yonle@duck.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://todo.sr.ht/~yonle/bouncer.js"
+  },
+  "homepage": "https://git.sr.ht/~yonle/bouncer.js#readme"
+}

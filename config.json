@@ -1,0 +1,27 @@
+{
+	"bouncer": {
+		"address": "127.0.0.1",
+		"port": "1337",
+		"password": "bersk17w5xaQQ",
+		"tls": {
+			"key": "private-key.pem",
+			"cert": "public-key.pem"
+		},
+
+		"history_limit": 50
+	},
+	
+	"irc": {
+		"nickname": "BJSUser",
+		"username": "BJSUser",
+		"realname": "BouncerJS User",
+		"tls": true,
+		"address": "irc.example.com",
+		"port": "6697",
+
+		"run": [
+			"PRIVMSG NickServ :IDENTIFY klMona53pM2",
+			"JOIN #channel"
+		]
+	}
+}
